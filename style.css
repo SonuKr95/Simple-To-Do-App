@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  /* background-color: #eb455f; */
+  color: rgb(5, 5, 5);
+}
+.main-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 1em 3em;
+  border-radius: 10px;
+  min-width: 330px;
+}
+
+.input-field {
+  margin-bottom: 1em;
+}
+
+.task {
+  margin-right: -2em;
+  padding: 1em 1em;
+}
+
+.task-container p {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(227, 236, 235);
+
+  margin-bottom: 1em;
+
+  padding: 1em 1em;
+}
+
+.add {
+  font-family: inherit;
+  padding: 1em;
+  margin-left: -2.2em;
+}
+
+button {
+  background-color: #1289eb;
+  border: none;
+  border: 1px solid grey;
+  font-weight: 900;
+}
+
+.delte {
+  padding: 5px;
+}
+
+input[placeholder] {
+  font-weight: 700;
+}
